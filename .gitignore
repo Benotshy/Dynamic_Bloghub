@@ -1,0 +1,14 @@
+# Ignore WordPress Core Directories
+/wp-admin/
+/wp-includes/
+
+# Ignore Sensitive Files
+wp-config.php
+
+# Ignore Cache and Uploads
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Ignore other dynamically generated or sensitive files
+.htaccess
